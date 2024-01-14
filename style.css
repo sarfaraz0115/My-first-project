@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    position: relative;
+}
+
+body{
+    background-color: #000;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.container{
+    border-radius: 10px;
+    margin: 7px;
+    margin-top: 10px;
+    display: flex;
+    height: 18vh;
+    width: auto;
+    background-color: rgb(32, 29, 29);
+    font-size: 29px;
+}
+
+.container>.card>span{
+    font-size: 15px;
+    opacity: 0.8;
+}
+
+.container>.thumbnail{
+    position: relative;
+}
+
+.container>.thumbnail>span{
+    background-color: rgb(36, 31, 31);
+    border-radius: 6px;
+    font-size: 18px;
+    padding: 2px;
+    margin-bottom: 10px;
+    margin-right: -2px;
+    opacity: 0.8;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.container>.thumbnail>img{
+    height: 90%;
+    padding: 3.5%;
+    border-radius: 15px;
+}
+
+.container>.card{
+    margin-top: 7px;
+    margin-left: 20px;
+}
+
+.addCard{
+    position: fixed;
+    z-index: 10;
+    bottom: 3vw;
+    right: 4vw;
+}
+
+.addCard>button{
+    border-radius: 50%;
+    border: none;
+    background-color: rgb(202, 75, 75);
+    font-size: 40px;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.addCard>button:hover{
+    background-color: rgb(223, 53, 53);
+}
+
+abbr[title]{
+    text-decoration: none;
+}
